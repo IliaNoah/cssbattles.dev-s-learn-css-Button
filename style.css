@@ -31,7 +31,11 @@ body {
     background: #FEE333;
     position: absolute;
     left: 0;
-    transition: .3s;
+    transition: width .3s, transform .3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
 }
 
 .button:hover .yellow-transition {
