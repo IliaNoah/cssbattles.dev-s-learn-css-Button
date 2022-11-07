@@ -13,7 +13,8 @@ body {
 .button {
     width: 100px;
     background: #1B1C19;
-    padding: 18px;
+    padding-inline: 15px;
+    padding-block: 12px;
     display: grid;
     place-items: center;
     position: relative;
