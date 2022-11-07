@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #323F4A;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.button {
+    width: 100px;
+    background: #1B1C19;
+    padding: 18px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.button span {
+    color: #FEE333;
+    font-size: 1.2rem;
+}
+
+.button .yellow-transition {
+    height: 100%;
+    width: 0;
+    background: #FEE333;
+    position: absolute;
+    left: 0;
+    transition: .3s;
+}
+
+.button:hover .yellow-transition {
+    width: 100%;
+}
+
+.button:hover span {
+    color: #1B1C19;
+    z-index: 1;
+    font-weight: 900;
+}
