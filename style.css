@@ -36,7 +36,7 @@ body {
 }
 
 .button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .button::after{
